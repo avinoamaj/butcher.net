@@ -22,11 +22,12 @@
 </head>
 
 
+
 <!-- תפריט רגיל -->
 
 <body>
     <header>
-        <a id="mainContent" title="דלג לתוכן" href="#">דלג לתוכן</a>
+        <a class="mainContent" title="דלג לתוכן" href="#">דלג לתוכן</a>
         <div class="header_navbar">
             <nav class="nav-1" id="first-nav">
                 <ul class="nav-ul">
@@ -59,7 +60,7 @@
                         </ul>
                     </li>
                     <li class="top-nav">
-                        <a tabindex="5" href="#">אודות</a>
+                        <a tabindex="5" href="about.html">אודות</a>
                     </li>
                 </ul>
             </nav>
@@ -76,6 +77,8 @@
     <!-- קונטיינר ממוקם באמצע ע"י גריד -->
     <div class="container-how-to">
         <article id="how-to-main" role="main">
+                        <!-- דילוג לתוכן עיקרי -->
+                        <a name="mainContent"></a>
             <!--<div class="group">-->
             <section class="top-how-to">
                 <div class="how-to-wrapper">
@@ -98,12 +101,10 @@
                     <li class="bullets">נתח "משויש" – השומן מפוזר על הנתח ולא מרוכז במקום אחד</li>
                 </ul>
                 <div class="pics-holder">
-                    <div class="good-meat">
+                    <div class="good-meat" id="center">
                         <img src="../images/good_meat.jpg" />
                     </div>
-                    <div class="bad-meat">
-                        <img src="../images/bad_meat.jpg" />
-                    </div>
+
                 </div>
             </section>
             <section class="sec-how-to">
@@ -115,10 +116,10 @@
                 </ul>
                 <div class="pics-holder">
                     <div class="good-meat">
-                        <img src="images/good.png" />
+                        <img src="" />
                     </div>
-                    <div class="bad-meat">
-                        <img src="לשים תמונההה" />
+                    <div class="bad-meat" id="big-pic">
+                        <img src="../images/bad_meat.jpg" />
                     </div>
                 </div>
             </section>
@@ -146,10 +147,10 @@
                 </ul>
                 <div class="pics-holder">
                     <div class="good-meat">
-                        <img src="../images/walmart.png" />
+                        <img  id="real-size"src="../images/walmart.png" />
                     </div>
                     <div class="bad-meat">
-                        <img src="images/steak-beef-meat-food.png" />
+                        <img id="big-size" src="images/steak-beef-meat-food.png" />
                     </div>
                 </div>
             </section>
@@ -161,10 +162,10 @@
                 </ul>
                 <div class="pics-holder">
                     <div class="good-meat big-meat">
-                        <img src="../images/bbq.jpg" />
+                        <img src="../images/bbq.jpg" alt="תמונה של קבב ארוז מראש, בשר מטובל במפעל" />
                     </div>
                     <div class="bad-meat">
-                        <img src="../images/frozen.jpg" />
+                        <img src="../images/frozen.jpg" alt="תמונה של בשר קפוא על הגריל - איכותי" />
                     </div>
                 </div>
             </section>
@@ -174,20 +175,20 @@
                     <ul class="bullet-holder-prime">
                         <li class="bullets bullets-prime">
                             <div class="Select-pic">
-                                <img src="../images/Select.png" />
+                                <img src="../images/Select.png" alt="בשר בדרגת שיוש נמוכה עם מעט שומן" />
                             </div>
                             <span>Select – אחוז השומן הנמוך ביותר </span>
                         </li>
                         <li class="bullets bullets-prime">
                             <div class="Choice-pic">
-                                <img src="../images/choice.png" />
+                                <img src="../images/choice.png" alt="בשר בדרגת שיוש בינוני, עם שומן שזור בין סיבי הבשר"/>
                             </div>
 
                             <span>Choice – אחוז השיוש בינוני</span>
                         </li>
                         <li class="bullets bullets-prime">
                             <div class="Prime-pic">
-                                <img src="../images/prime22.png" />
+                                <img src="../images/prime22.png" alt="בשר בדרגת שיוש גבוהה עם הרבה שומן שזור בין סיבי הבשר"/>
                             </div>
                             <span>Prime – אחוז השיוש הגבוה ביותר </span>
                         </li>
@@ -196,7 +197,7 @@
 
             </section>
             <section class="sec-how-to">
-                <div id="end-meat" alt=""></div>
+                <div id="end-meat" alt="תמונה דל בשר איכותי- אדום, משוייש, "></div>
 
                 <h2 class="sec-h-how-to">ככה תדעו שבחרתם נכון</h2>
                 <ul class="bullet-holder">
@@ -236,7 +237,7 @@
                     <li><a tabindex="9" href="DOfD.html">זיהוי מידות עשייה</a></li>
                     <li><a tabindex="10" class="no-drop" href="#">הכלים למנגל</a></li>
                     <li><a tabindex="11" class="no-drop" href="#"> השיטה שלנו למנגל</a></li>
-                    <li><a tabindex="12" href="#">אודות</a></li>
+                    <li><a tabindex="12" href="about.html">אודות</a></li>
                     <li><a tabindex="13" href="siteMap.html">מפת האתר</a></li>
                     <li><a tabindex="14" href="contactUs.html">צור קשר</a></li>
                 </ul>

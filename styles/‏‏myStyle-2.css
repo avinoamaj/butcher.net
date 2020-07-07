@@ -199,34 +199,13 @@ header {
     padding-top: 9px;
 }
 
-@keyframes opacity {
-
-    0% {
-        background-color:  #ffd000;
-        color: #000;
-
-    }
-    70% {
-        background-color: #000;
-          color: #ffd000;
-          opacity: 0.8;
-       }
-
-       100% {
-        background-color:  #ffd000;
-        color: #000;
-        opacity: 1;
-       }
-        
-
-}
 
 
     .page-link:hover, .page-link:focus, .page-link:focus-within {
         color: #ffd000;
         background-color: #80808000;
         padding-top: 9px;
-        animation: opacity 1s ease-in-out ;
+    
       
     }
 
@@ -273,7 +252,7 @@ nav ol li {
     /* קישור נסתר - דלג לתוכן*/
 
 
-    a#mainContent {
+    a.mainContent {
         font-size: large;
         position: fixed;
         overflow: hidden;
@@ -282,7 +261,7 @@ nav ol li {
     }
 
 
-        a#mainContent:focus {
+        a.mainContent:focus {
             top: 10%;
             right: 12%;
             overflow: visible;
@@ -619,9 +598,35 @@ input[type=submit] {
     width: 300px;
     height: 300px;
     object-fit: contain;
-
 }
 
+
+#center {
+    position: relative;
+    width: 55%;
+    height: 40%;
+    top: 40px;
+}
+
+ img#real-size {
+        position: relative;
+        top: 30%;
+ }
+
+ img#big-size {
+    width: 141%;
+    position: relative;
+    top: -35%;
+    left: 20%;
+}
+#big-pic{
+position: relative;
+    /* width: 100%; */
+    /* height: 40%; */
+    top: 40px;
+    width: 530px;
+    left: 25%;
+}
     .good-meat > img {
         width: 90%;
         object-fit: contain;

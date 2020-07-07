@@ -167,7 +167,7 @@ header {
     height: 155px;
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: #000000de;
     box-shadow: 8px 12px 80px #050505;
 }
 
@@ -339,7 +339,7 @@ a {
     /* קישור נסתר - דלג לתוכן*/
 
 
-    a#mainContent {
+    a.mainContent {
         font-size: large;
         position: fixed;
         overflow: hidden;
@@ -348,7 +348,7 @@ a {
     }
 
 
-        a#mainContent:focus {
+        a.mainContent:focus {
             top: 10%;
             right: 12%;
             overflow: visible;
