@@ -1,8 +1,8 @@
-/*  font  */
+ο»Ώ/*  font  */
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 
 
-/*  ωΰιμϊεϊ ξγιδ μδϊΰξδ ωμ δγσ αδβγμδ ςγ 200% */
+/*  Χ©ΧΧ™ΧΧªΧ•Χª ΧΧ“Χ™Χ” ΧΧ”ΧªΧΧΧ” Χ©Χ Χ”Χ“Χ£ Χ‘Χ”Χ’Χ“ΧΧ” ΧΆΧ“ 200% */
 @media only screen and (max-width: 1400px) {
 
     #one-logo {
@@ -82,7 +82,7 @@
 
 
 
-        /* ηεφυ μαο ιιςμν αδβγμδ ξςμ 100 ΰηεζ */
+        /* Χ—Χ•Χ¦Χ¥ ΧΧ‘Χ Χ™Χ™ΧΆΧΧ Χ‘Χ”Χ’Χ“ΧΧ” ΧΧΆΧ 100 ΧΧ—Χ•Χ– */
         #zoom-white-block-hide {
             display: none;
         }
@@ -163,7 +163,7 @@ header {
     color: white;
     text-decoration: none;
     text-align: center;
-    /*  βεψν μϊτψιθ μψγϊ α175 ΰηεζ δβγμδ */
+    /*  Χ’Χ•Χ¨Χ ΧΧªΧ¤Χ¨Χ™Χ ΧΧ¨Χ“Χª Χ‘175 ΧΧ—Χ•Χ– Χ”Χ’Χ“ΧΧ” */
     width: 185px;
     height: 30px;
     padding: 10px;
@@ -244,12 +244,12 @@ nav ol li {
     margin-top: 25px;
 }
 
-    /* τεχερ ςμ χιωεψ αξςαψ ςν δξχμγϊ - 2.4.7 */
+    /* Χ¤Χ•Χ§Χ•Χ΅ ΧΆΧ Χ§Χ™Χ©Χ•Χ¨ Χ‘ΧΧΆΧ‘Χ¨ ΧΆΧ Χ”ΧΧ§ΧΧ“Χª - 2.4.7 */
     a:focus {
         border: 2px solid #ffd000;
     }
 
-    /* χιωεψ πρϊψ - γμβ μϊελο*/
+    /* Χ§Χ™Χ©Χ•Χ¨ Χ Χ΅ΧªΧ¨ - Χ“ΧΧ’ ΧΧªΧ•Χ›Χ*/
 
 
     a.mainContent {
@@ -347,7 +347,7 @@ footer nav ul {
 }
 
 
-/* θετρ φεψ χωψ */
+/* ΧΧ•Χ¤Χ΅ Χ¦Χ•Χ¨ Χ§Χ©Χ¨ */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -400,9 +400,9 @@ input[type=submit] {
     font-size: 18px;
 }
 /***************************************
-/************** γσ δαιϊ ***************/
+/************** Χ“Χ£ Χ”Χ‘Χ™Χª ***************/
 /***************************************/
-/* ϊξεπϊ ΰεειψδ */
+/* ΧªΧΧ•Χ Χª ΧΧ•Χ•Χ™Χ¨Χ” */
 .avira {
     position: relative;
     height: 780px;
@@ -435,7 +435,7 @@ input[type=submit] {
   
 
 
-/* ρμεβο δΰϊψ */
+/* Χ΅ΧΧ•Χ’Χ Χ”ΧΧªΧ¨ */
 .tagline {
     position: relative;
     font-size: 60px;
@@ -453,7 +453,7 @@ input[type=submit] {
     width: 45%;
 }
 
-/* ςμ ξπϊ ωδρμεβο ιετις ξςμ δϊξεπδ */
+/* ΧΆΧ ΧΧ Χª Χ©Χ”Χ΅ΧΧ•Χ’Χ Χ™Χ•Χ¤Χ™ΧΆ ΧΧΆΧ Χ”ΧªΧΧ•Χ Χ” */
     .homepage_background {
     position: relative;
     animation: moveSlideshow 3s ease-in-out;
@@ -477,7 +477,7 @@ input[type=submit] {
 .h-home {
     padding-top: 7%;
 }
-/* ςιφεα μχιωεψ αρεσ λμ δτπιδ μξΰξψ */
+/* ΧΆΧ™Χ¦Χ•Χ‘ ΧΧ§Χ™Χ©Χ•Χ¨ Χ‘Χ΅Χ•Χ£ Χ›Χ Χ”Χ¤Χ Χ™Χ” ΧΧΧΧΧ¨ */
 .a-link-after-p {
     font-family: 'Assistant', sans-serif;
     font-size: 26px;
@@ -507,7 +507,7 @@ input[type=submit] {
     flex-direction: column;
 }
 
-/* μαηεψ πλεο */
+/* ΧΧ‘Χ—Χ•Χ¨ Χ Χ›Χ•Χ */
 #meat_tips {
     background-image: url(../images/istockphoto-122696908-612x612.jpg);
     background-repeat: no-repeat;
@@ -519,7 +519,7 @@ input[type=submit] {
 }
 
 
-/* μδβις ξελπιν μχφα */
+/* ΧΧ”Χ’Χ™ΧΆ ΧΧ•Χ›Χ Χ™Χ ΧΧ§Χ¦Χ‘ */
 #meats {
     background-image: url(../images/meats.png);
     background-repeat: no-repeat;
@@ -537,7 +537,7 @@ input[type=submit] {
     width: 283px;
 }
 
-/* μδτεκ αγιεχ αψβς δπλεο */
+/* ΧΧ”Χ¤Χ•Χ Χ‘Χ“Χ™Χ•Χ§ Χ‘Χ¨Χ’ΧΆ Χ”Χ Χ›Χ•Χ */
 #real-time {
     background-image: url(../images/real-time.png);
     background-repeat: no-repeat;
@@ -554,7 +554,7 @@ input[type=submit] {
 
 
 
-/*  ΰικ μαηεψ πλεο - ϊξεπϊ ΰεειψδ */
+/*  ΧΧ™Χ ΧΧ‘Χ—Χ•Χ¨ Χ Χ›Χ•Χ - ΧªΧΧ•Χ Χª ΧΧ•Χ•Χ™Χ¨Χ” */
 .container-how-to {
     position: relative;
     margin: 3% 14% 0% 14%;
@@ -738,16 +738,7 @@ position: relative;
     filter: saturate(0.3);
     transition: all 0.1s ease;
 }
-.last-link-Choose {
-    left: 35%;
-    bottom: 40%;
-    position: relative;
-    align-self: flex-end;
-}
 
-.last-link-wrapper {
-    height: 100px;
-}
 
 /***************************************
 /**************** siteMap ****************/
